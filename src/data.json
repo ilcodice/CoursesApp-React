@@ -1,0 +1,47 @@
+[
+    {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/480px-Python.svg.png",
+      "name": "Python",
+      "description": " Learn Python programming for automation, data analysis, and web development.",
+      "courseId": 1,
+      "startDate": "01.04.2025"
+    },
+
+    {
+      "logo": "https://cdn.worldvectorlogo.com/logos/java.svg",
+      "name": "Java",
+      "description": "Master Java for building cross-platform applications and backend systems.",
+      "courseId": 2,
+      "startDate": "08.05.2025"
+    },
+    {
+      "logo": "https://2ality.com/2011/10/logo-js/js.jpg",
+      "name": "JavaScript",
+      "description": "Explore JavaScript to create interactive and dynamic web applications.",
+      "courseId": 3,
+      "startDate": "21.02.2025"
+    },
+    {
+      "logo": "https://gimgs2.nohat.cc/thumb/f/640/c-language-global-or-external-variables-with-examples-c-programming-logo--m2H7G6A0b1A0K9m2.jpg",
+      "name": "C",
+      "description": "Understand the fundamentals of system-level programming with the C language.",
+      "courseId": 4,
+      "startDate": "01.06.2025"
+    },
+    {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png",
+      "name": "C++",
+      "description": "Learn object-oriented programming and performance-focused development with C++.",
+      "courseId": 5,
+      "startDate": "21.01.2025"
+    },
+
+    {
+      "logo": "https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png",
+      "name": "PHP",
+      "description": " Build dynamic and database-driven websites using PHP.",
+      "courseId": 6,
+      "startDate": "11.10.2025"
+    }
+  ]
+  

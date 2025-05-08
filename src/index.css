@@ -1,0 +1,10 @@
+@import "tailwindcss";
+/* index.css */
+body {
+    @apply bg-white text-black;
+  }
+  
+  .dark body {
+    @apply bg-gray-900 text-white;
+  }
+  
