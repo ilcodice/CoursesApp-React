@@ -1,0 +1,40 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to React",
+      "description": "Learn the basics of React and build your first app.",
+      "duration": "4 weeks"
+    },
+    {
+      "id": 2,
+      "title": "Advanced JavaScript",
+      "description": "Deep dive into advanced JavaScript concepts.",
+      "duration": "6 weeks"
+    },
+    {
+      "id": 3,
+      "title": "Python for Beginners",
+      "description": "Start learning Python from scratch.",
+      "duration": "5 weeks"
+    },
+    {
+      "id": 4,
+      "title": "Java",
+      "description": "Learn Java.",
+      "duration": "3 weeks"
+    },
+    {
+      "id": 5,
+      "title": "C",
+      "description": "learn C",
+      "duration": "5 weeks"
+    },
+    {
+      "id": 6,
+      "title": "C++",
+      "description": "Mastering C++.",
+      "duration": "5 weeks"
+    }
+  ]
+}
