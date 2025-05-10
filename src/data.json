@@ -30,7 +30,7 @@
     },
     {
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png",
-      "name": "C++",
+      "name": "CPlus",
       "description": "Learn object-oriented programming and performance-focused development with C++.",
       "courseId": 5,
       "startDate": "21.01.2025"

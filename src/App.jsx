@@ -23,7 +23,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Courses' element={<Courses />} />
-        <Route path="/Courses/:slug" element={<CoursePage />} />
+        <Route path="/courses/:slug" element={<CoursePage />} />
+
       </Routes>
     </div>
     {/* <div className="min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white transition-colors">

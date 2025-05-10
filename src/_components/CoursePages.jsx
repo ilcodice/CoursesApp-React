@@ -10,16 +10,25 @@ import Java from "./courses/Java"
 
 export default function CoursePage() {
   const { slug } = useParams();
+  const courseKey = slug?.toLowerCase(); // Handle case sensitivity
 
   const courseComponents = {
     python: <Python />,
     javascript: <JavaScript />,
     c: <C />,
     cplus: <CPlus />,
-    php: <PHP/>,
-    java: <Java/>
-
+    php: <PHP />,
+    java: <Java />,
   };
 
-  return courseComponents[slug]; 
+  // Fallback for unknown slug
+  const SelectedCourse = courseComponents[courseKey] || (
+    <div className="text-2xl text-red-600 p-10">Course not found</div>
+  );
+
+  return (
+    <div className="mx-10 my-10">
+      {SelectedCourse}
+    </div>
+  );
 }
