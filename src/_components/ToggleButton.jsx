@@ -1,4 +1,3 @@
-    // ToggleButton.jsx
 import { useTheme } from "./ThemeContext";
 
 function ToggleButton() {

@@ -9,30 +9,48 @@ export default function Courses() {
   });
 
   if (status === 'loading') {
-    return <p>Loading...</p>;
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-400 to-teal-500 dark:from-gray-700/40 dark:to-gray-900">
+        <p className="text-white text-xl animate-pulse">Loading...</p>
+      </div>
+    );
   }
+
   if (status === 'error') {
-    return <p>Error fetching data</p>;
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-400 to-teal-500 dark:from-gray-700/40 dark:to-gray-900">
+        <p className="text-red-500 text-xl">Error fetching data</p>
+      </div>
+    );
   }
-  if (!data || !Array.isArray(data)) { 
-    return <p>No valid data found</p>;
+
+  if (!Array.isArray(data)) { 
+    console.log("Fetched data:", data);
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-400 to-teal-500 dark:from-gray-700/40 dark:to-gray-900">
+        <p className="text-white text-xl">No valid data found</p>
+      </div>
+    );
   }
 
   return (
-    <div>
-      <h1 className='text-2xl text-center m-5 text-amber-500'>Our Courses</h1>
+    <div className="min-h-screen p-10 bg-gradient-to-br from-emerald-900 to-teal-500 dark:from-gray-700/40 dark:to-gray-900">
+      <h1 className='text-4xl font-extrabold text-center text-white dark:text-amber-300 mb-10'>
+        Our Courses
+      </h1>
 
-      <div className='grid grid-cols-3 gap-5'>
-      {data.map((course) => (
-        <div key={course.id} className="p-5 border-1 rounded-2xl">
-          <p className='text-2xl text-center text-amber-300'>{course.title}</p>
-          <p>Description: {course.description}</p>
-          <p>Deuration: {course.duration}</p>
-        </div>
-      ))}
+      <div className='grid md:grid-cols-3 sm:grid-cols-2 gap-8'>
+        {data.map((course) => (
+          <div
+            key={course.id}
+            className="bg-white/20 dark:bg-gray-700/40 backdrop-blur-md rounded-2xl shadow-lg p-6 flex flex-col items-center text-center transition-transform hover:scale-105"
+          >
+            <p className='text-2xl font-bold text-amber-300 mb-2'>{course.title}</p>
+            <p className='text-white/90 dark:text-gray-300 mb-2'>{course.description}</p>
+            <p className='text-white/70 dark:text-gray-400'>Duration: {course.duration}</p>
+          </div>
+        ))}
+      </div>
     </div>
-
-    </div>
-
   );
 }
