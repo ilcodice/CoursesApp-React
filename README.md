@@ -4,7 +4,7 @@ A modern and responsive React web application that allows users to explore and v
 
 Demo Video:
 
-![Demo](src/assets/videos/test_video.mp4)
+![Demo](src/assets/videos/test_video-ezgif.com-video-to-gif-converter.gif)
 
 🚀 Features
 
