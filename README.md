@@ -2,6 +2,10 @@
 
 A modern and responsive React web application that allows users to explore and view details of available courses. The app features seamless navigation powered by React Router and a global Dark Mode toggle implemented using the Context API. Built with clean design principles and responsive styling using TailwindCSS.
 
+Demo Video:
+
+![Demo](src/assets/videos/test_video.mp4)
+
 🚀 Features
 
 🏠 Home Page — Displays a list of available courses.
